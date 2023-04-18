@@ -1,0 +1,91 @@
+body {
+    font-family: "Roboto",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    align-items: center;
+}
+
+.nav-link {
+    border-top: solid 2px transparent;
+}
+
+.nav-link:hover {
+    border-top: solid #007bff 2px;
+    color: #007bff;
+}
+
+.active {
+    border-top: solid #007bff 2px;
+    color: #007bff !important;
+}
+
+.navbar-brand:hover {
+    color: #000 !important;
+    transition: 0.8s;
+}
+
+.hero-image {
+    background-image: url(headerbackground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h6 a {
+    color: white; text-decoration: none;
+}
+
+h6 a:hover{
+    text-decoration: underline;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px #000 !important;
+}
+
+.btn-outline-light:hover{
+    color: #007bff;
+}
+
+h5 a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.categories{
+    text-decoration: none;
+}
+
+.categories:hover{
+    text-decoration: underline;
+    color: #000;
+    text-shadow: 0 0 0.1px #000;
+}
+
+.socials{
+    height: 50px;
+    width: 50px;
+    border: solid #212529 1px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.socials:hover{
+    color: #007bff !important;
+    border-color: #007bff !important;
+}
+
+.fab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boots:hover{
+    text-decoration: underline !important;
+}
